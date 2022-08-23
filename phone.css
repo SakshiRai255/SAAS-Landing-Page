@@ -1,0 +1,148 @@
+
+/*-----------Navbar_Section--------------*/ 
+
+@media (max-width: 970px) {
+  #navbar {
+    border: 0.5px solid #fff;
+    align-items: center;
+    width: 100%;
+    margin-left: 0px;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
+    background-color: #5307cc;
+    z-index: 1;
+  }
+  .logo {
+    height: 35px;
+    width: 150px;
+    margin-top: 15px;
+  }
+  #btn,
+  #cancel {
+    margin-right: 25px;
+  }
+  #btn {
+    display: block;
+  }
+
+  #menu-list {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 105%;
+    height: 85vh;
+    top: 68px;
+    left: -105%;
+    transition: all 0.5s;
+    background-color: #7d2efc;
+  }
+  .list-items {
+    line-height: 45px;
+    margin: 20px 10px;
+  }
+  .list-items a {
+    font-size: 22px;
+  }
+
+  #check:checked ~ #menu-list {
+    left: 0;
+  }
+  #check:checked ~ label #btn {
+    display: none;
+  }
+  #check:checked ~ label #cancel {
+    display: block;
+  }
+}
+
+@media (max-width: 1050px) {
+  #main-heading-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    margin-top: 10px;
+    padding-bottom: 6vh;
+    width: 95%;
+    margin-left: 35px;
+  }
+  .heading-section {
+    width: 75%;
+    margin-top: 100px;
+    margin-left: 15px;
+  }
+}
+
+/*------------Second-Heading-Section-----------*/
+
+@media (max-width: 900px) {
+  .img-second {
+    height: 80vh;
+    width: 60vw;
+    margin-top: 60px;
+  }
+}
+@media (max-width: 700px) {
+  #second-heading-section {
+    display: flex;
+    margin-top: 17vh;
+    margin-bottom: 5vh;
+    justify-content: space-between;
+  }
+  .arrow-heading-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    padding-bottom: 0vh;
+    width: 25vw;
+  }
+  .img-second {
+    height: 80vh;
+    width: 60vw;
+    margin-top: 60px;
+  }
+}
+
+/*------------Card-Section-----------*/
+
+@media (max-width: 1100px) {
+  .card-heading {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10px;
+    padding-bottom: 6vh;
+  }
+  .card {
+    margin: 40px 15px;
+    height: 50vh;
+    width: 30vw;
+  }
+  .card-img {
+    height: 65px;
+    width: 65px;
+    margin-bottom: 0px;
+    margin-top: 25px;
+  }
+  .card-heading-para {
+    margin-top: 10px;
+    height: 158px;
+    padding: 15px 10px;
+  }
+
+  .card-heading-para p {
+    font-size: 15px;
+    padding: 10px;
+  }
+}
+@media (max-width: 660px) {
+  .card {
+    height: 50vh;
+    width: 35vw;
+  }
+}
+@media (max-width: 560px) {
+  .card {
+    height: 50vh;
+    width: 40vw;
+  }
+}

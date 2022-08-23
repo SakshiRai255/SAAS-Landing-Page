@@ -1,0 +1,229 @@
+/*-----------CSS Reset-----------*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+}
+#header {
+  background-color: #5307cc;
+}
+.logo {
+  height: 45px;
+  width: 120px;
+  margin: 18px 15px;
+  margin-top: 35px;
+}
+/*-----------NavBar-----------*/
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin-left: 30px;
+}
+/*-----------Menu-List-----------*/
+#menu-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.list-item {
+  margin: 10px 20px;
+}
+.list-item a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(231, 224, 224);
+  font-family: "Poppins", sans-serif;
+}
+.list-item a:hover {
+  color: aqua;
+}
+a.active {
+  border-bottom: 1px solid saddlebrown;
+  color: aqua;
+}
+.nav-btn {
+  font-family: "Poppins", sans-serif;
+  background-color: #03c4c7;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 15px;
+  margin: 20px 20px;
+  margin-left: 50px;
+}
+#btn,
+#cancel {
+  color: #fff;
+  font-size: 35px;
+  line-height: 80px;
+  cursor: pointer;
+  margin-left: 15px;
+  display: none;
+}
+#check {
+  display: none;
+}
+
+/*--------------Main-Heading-Section-------------*/
+#main-heading-section {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 10px;
+  padding-bottom: 6vh;
+  width: 95%;
+  margin-left: 35px;
+}
+.heading-section {
+  width: 37vw;
+  margin-top: 100px;
+  margin-left: 15px;
+}
+.heading-section h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 55px;
+  color: #fff;
+  padding: 25px 18px;
+  word-break: break-all;
+}
+.heading-section p {
+  font-family: "Poppins", sans-serif;
+  color: rgb(230, 224, 224);
+  font-size: 18px;
+  padding: 18px 18px;
+  word-break: break-all;
+}
+.header-btn {
+  border: none;
+  font-family: "Poppins", sans-serif;
+  background-color: #03c4c7;
+  color: #fff;
+  font-size: 18px;
+  padding: 8px 35px;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.first-img {
+  height: 85vh;
+  width: 75vw;
+}
+/*------------Second-Heading-Section-----------*/
+
+#second-heading-section {
+  display: flex;
+  margin-top: 17vh;
+  margin-bottom: 5vh;
+}
+.second-heading h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  color: rgb(39, 39, 39);
+  margin-top: 30px;
+}
+.arrow-heading-section {
+  display: flex;
+  flex-direction: row;
+  margin-top: 4vh;
+  padding-bottom: 4vh;
+  width: 25vw;
+  margin: 0px;
+}
+.image-arrow {
+  text-align: center;
+  padding-top: 28px;
+}
+
+.heading-para h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: rgb(39, 39, 39);
+  margin-top: 25px;
+}
+.heading-para p {
+  font-family: "Poppins", sans-serif;
+  color: rgb(49, 48, 48);
+  font-size: 15px;
+  padding-top: 10px;
+  word-break: break-all;
+}
+.img-second {
+  height: 65vh;
+  width: 60vw;
+  margin-top: 60px;
+}
+
+/*--------------Card-Section-----------------*/
+
+#card-section {
+  margin-top: 5vh;
+}
+#card-section h1 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+  color: rgb(39, 39, 39);
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.card-heading {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  width: 95%;
+  margin-left: 45px;
+  margin-top: 10px;
+  padding-bottom: 6vh;
+}
+.card {
+  text-align: center;
+  margin: 20px 15px;
+  border-radius: 30px;
+  height: 50vh;
+  width: 20vw;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  z-index: 1;
+}
+.card-img {
+  height: 65px;
+  width: 65px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+.card-heading-para {
+  text-align: center;
+  margin-top: 10px;
+  height: 25vh;
+  padding: 15px 15px;
+}
+.active2 {
+  border-radius: 30px;
+  background-color: #5307cc;
+}
+.card-heading-para h2 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  color: rgb(39, 39, 39);
+}
+h2.h2-active {
+  color: white;
+}
+.card-heading-para p {
+  font-family: "Poppins", sans-serif;
+  color: rgb(49, 48, 48);
+  font-size: 18px;
+  padding: 10px;
+  word-break: break-all;
+}
+p.para-active {
+  color: white;
+}
