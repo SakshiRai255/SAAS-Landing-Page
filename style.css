@@ -88,17 +88,17 @@ a.active {
 }
 .heading-section h1 {
   font-family: "Roboto", sans-serif;
-  font-size: 55px;
+  font-size: 50px;
   color: #fff;
   padding: 25px 18px;
-  word-break: break-all;
+  
 }
 .heading-section p {
   font-family: "Poppins", sans-serif;
   color: rgb(230, 224, 224);
   font-size: 18px;
   padding: 18px 18px;
-  word-break: break-all;
+  
 }
 .header-btn {
   border: none;
@@ -151,7 +151,7 @@ a.active {
   color: rgb(49, 48, 48);
   font-size: 15px;
   padding-top: 10px;
-  word-break: break-all;
+  
 }
 .img-second {
   height: 65vh;
@@ -222,7 +222,6 @@ h2.h2-active {
   color: rgb(49, 48, 48);
   font-size: 18px;
   padding: 10px;
-  word-break: break-all;
 }
 p.para-active {
   color: white;

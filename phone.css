@@ -1,11 +1,10 @@
-
-/*-----------Navbar_Section--------------*/ 
+/*-----------Navbar_Section--------------*/
 
 @media (max-width: 970px) {
   #navbar {
     border: 0.5px solid #fff;
     align-items: center;
-    width: 100%;
+    width: 98%;
     margin-left: 0px;
     box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
     background-color: #5307cc;
@@ -29,7 +28,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 105%;
+    width: 100%;
     height: 85vh;
     top: 68px;
     left: -105%;
@@ -60,15 +59,46 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap-reverse;
-    margin-top: 10px;
+    margin-top: 8px;
     padding-bottom: 6vh;
     width: 95%;
-    margin-left: 35px;
+    margin-left: 0px;
   }
   .heading-section {
-    width: 75%;
-    margin-top: 100px;
-    margin-left: 15px;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+}
+@media (max-width: 670px) {
+  #main-heading-section {
+    margin-top: 5px;
+  }
+  .heading-section {
+    margin-top: 10px;
+  }
+  .heading-section h1 {
+    font-size: 35px;
+  }
+  .heading-section p {
+    font-size: 15px;
+    padding: 5px 18px;
+  }
+}
+@media (max-width: 450px) {
+  #main-heading-section {
+    margin-top: 2px;
+  }
+  .heading-section {
+    margin-top: 5px;
+  }
+  .heading-section h1 {
+    font-size: 22px;
+    padding: 5px 18px;
+  }
+  .heading-section p {
+    font-size: 11px;
+    padding: 5px 18px;
   }
 }
 
@@ -81,19 +111,34 @@
     margin-top: 60px;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 860px) {
   #second-heading-section {
     display: flex;
-    margin-top: 17vh;
+    flex-wrap: wrap;
+    margin-top: 4vh;
     margin-bottom: 5vh;
-    justify-content: space-between;
+    justify-content: space-around;
+  }
+  .second-heading h1 {
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
   }
   .arrow-heading-section {
     display: flex;
     flex-direction: row;
-    margin-top: 0;
     padding-bottom: 0vh;
-    width: 25vw;
+    width: 60%;
+    margin-left: 20px auto;
+  }
+  .heading-para h3 {
+    font-size: 18px;
+
+    margin-top: 20px;
+  }
+  .heading-para p {
+    font-size: 15px;
+    padding-top: 10px;
   }
   .img-second {
     height: 80vh;
@@ -101,6 +146,26 @@
     margin-top: 60px;
   }
 }
+@media (max-width: 500px) {
+  .second-heading h1 {
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 5px;
+  }
+  .arrow-heading-section {
+    width: 60%;
+    margin-left: 60px;
+  }
+  .heading-para h3 {
+    font-size: 15px;
+     
+  }
+  .heading-para p {
+    font-size: 11px;
+
+  }
+}
+
 
 /*------------Card-Section-----------*/
 @media (max-width: 1200px) {
@@ -114,9 +179,10 @@
   .card-heading {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 95%;
     margin-top: 10px;
     padding-bottom: 6vh;
+    margin-left: 0px;
   }
   .card {
     margin: 40px 15px;
@@ -141,14 +207,43 @@
   }
 }
 @media (max-width: 660px) {
+  #card-section h1 {
+    font-size: 22px;
+  }
   .card {
     height: 50vh;
     width: 35vw;
   }
+  .card-img {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+  }
+  .card-heading-para h2 {
+    font-size: 15px;
+  }
+  .card-heading-para p {
+    font-size: 14px;
+    padding: 10px;
+  }
 }
 @media (max-width: 560px) {
   .card {
-    height: 50vh;
-    width: 40vw;
+    height: 40vh;
+    width: 30vw;
+  }
+  .card-img {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+  }
+  .card-heading-para h2 {
+    font-size: 12px;
+  }
+  .card-heading-para p {
+    font-size: 9px;
+    padding: 10px;
   }
 }
