@@ -122,7 +122,7 @@
   .second-heading h1 {
     font-size: 30px;
     margin-left: 30px;
-    margin-top: 30px;
+    margin-top: 100px;
   }
   .arrow-heading-section {
     display: flex;
@@ -133,7 +133,6 @@
   }
   .heading-para h3 {
     font-size: 18px;
-
     margin-top: 20px;
   }
   .heading-para p {
@@ -230,7 +229,7 @@
 }
 @media (max-width: 560px) {
   .card {
-    height: 40vh;
+    height: 35vh;
     width: 35vw;
   }
   .card-img {
