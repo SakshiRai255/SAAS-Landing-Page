@@ -203,7 +203,7 @@ a.active {
   margin-top: 10px;
   height: 27vh;
   padding: 15px 15px;
-  overflow: hidden;
+  
 }
 .active2 {
   border-radius: 30px;
@@ -223,6 +223,7 @@ h2.h2-active {
   color: rgb(49, 48, 48);
   font-size: 18px;
   padding: 10px;
+  overflow: hidden;
 }
 p.para-active {
   color: white;
