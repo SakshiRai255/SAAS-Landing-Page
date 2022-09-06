@@ -182,7 +182,7 @@
   }
   .card {
     margin: 40px 15px;
-    height: 50vh;
+    height: 45vh;
     width: 30vw;
   }
   .card-img {
@@ -207,7 +207,7 @@
     font-size: 22px;
   }
   .card {
-    height: 47vh;
+    height: 45vh;
     width: 30vw;
   }
   .card-heading-para {
@@ -229,7 +229,7 @@
 }
 @media (max-width: 560px) {
   .card {
-    height: 35vh;
+    height: 32vh;
     width: 35vw;
   }
   .card-heading-para {
