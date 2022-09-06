@@ -203,6 +203,7 @@ a.active {
   margin-top: 10px;
   height: 27vh;
   padding: 15px 15px;
+  overflow: hidden;
 }
 .active2 {
   border-radius: 30px;

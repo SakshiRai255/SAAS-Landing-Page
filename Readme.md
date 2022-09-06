@@ -1,5 +1,5 @@
 
-## This is my thirteen landing page created for learning front end designing using HTML and CSS.
+## This is a landing page created for learning front end designing using HTML and CSS.
 
 ## This landing page is responsive.
 
@@ -11,11 +11,11 @@
 
 ---
 
-### These images is related  to landing page
+### These images are related  to landing page
 
 ---
 
-![Image](img/Screenshot%20(377).png)
+![Image](img/Screenshot%20(457).png)
 
 ![Image](img/Screenshot%20(376).png)
 
