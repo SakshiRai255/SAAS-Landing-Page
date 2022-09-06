@@ -59,8 +59,8 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap-reverse;
-    margin-top: 8px;
-    padding-bottom: 6vh;
+    margin-top: 20px;
+    padding-bottom: 20px;
     width: 95%;
     margin-left: 0px;
   }
@@ -115,8 +115,8 @@
   #second-heading-section {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 4vh;
-    margin-bottom: 5vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
     justify-content: space-around;
   }
   .second-heading h1 {
@@ -231,7 +231,7 @@
 @media (max-width: 560px) {
   .card {
     height: 40vh;
-    width: 30vw;
+    width: 35vw;
   }
   .card-img {
     height: 40px;
