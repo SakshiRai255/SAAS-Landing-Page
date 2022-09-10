@@ -10,19 +10,16 @@
 - CSS
 
 ---
+### [Deployed-link](https://my-saas-landing-page.netlify.app/)
 
 ### These images are related  to landing page
 
 ---
 
-![Image](img/Screenshot%20(457).png)
 
+![Image](img/Screenshot%20(460).png)
 ![Image](img/Screenshot%20(376).png)
-
 ![Image](img/Screenshot%20(375).png)
-
 ![Image](img/Screenshot%20(384).png)
-
 ![Image](img/Screenshot%20(387).png)
-
 ![Image](img/Screenshot%20(382).png)
