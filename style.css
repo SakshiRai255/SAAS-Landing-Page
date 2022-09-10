@@ -11,8 +11,8 @@ body {
   background-color: #5307cc;
 }
 .logo {
-  height: 45px;
-  width: 120px;
+  height: 30px;
+  width: 100px;
   margin: 18px 15px;
   margin-top: 35px;
 }
@@ -33,7 +33,7 @@ body {
   margin-top: 15px;
 }
 .list-item {
-  margin: 10px 20px;
+  margin: 10px 15px;
 }
 .list-item a {
   text-decoration: none;
